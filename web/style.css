@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    color: rgb(243,160,77);
+}
+
+header {
+    text-align: center;
+}
+.cart {
+    text-align: right;
+}
+li {
+    display: inline;
+}
+img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+  .container {
+    background-color: rgb(226, 222, 222);
+  }
+  .grid-container {
+    display: grid;
+    margin:1rem;
+    justify-content: space-evenly;
+    grid-gap: 1.5rem;  
+    grid-template-columns: auto auto auto auto;
+}
+
+.info {
+    text-align: center;
+}
+
+.filter {
+    text-align: right;
+}
+/*.grid-container {
+    display: inline-grid;
+}*/
