@@ -23,11 +23,11 @@ a {
     text-decoration: none;
     color: black;
 }
-/*img {
+img {
     max-width: 200px;
     max-height: 200px;
 }
-*/
+
 
   .container {
     background-color: rgb(226, 222, 222);
@@ -47,6 +47,3 @@ a {
 .filter {
     text-align: right;
 }
-/*.grid-container {
-    display: inline-grid;
-}*/
