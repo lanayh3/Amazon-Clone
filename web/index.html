@@ -8,15 +8,19 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 <body>
-        <h1>Amazon</h1>
-        <p class="cart"><i class="fa fa-shopping-cart"></i> <a href="cart" style="color: #0099CC">$0.00</a></p>
-    <main>
-        <header>
+    <div class="header">
+        <h1 class="myHeading">Amazon</h1> 
+        <p class="cart"><i class="fa fa-shopping-cart"></i> <a href="cart" style="color: #0099CC">$0.00</a></p>   
+    </div>
+        <main>
+        <header class="nav">
             <hr>
             <nav>
                 <ul>
                     <li><a href= "#">Home</a></li>
-                    <li><a href= "Shop.html">Shop</a></li>
+                    <li class="dropdown"><a href= "Shop.html">Shop</a><span class="dropdown-content"><a href="Womensapparel.html">Womens Apparel</a>
+                        <a href="Mensapparel.html">Mens Apparel</a>
+                        <a href="Kidsapparel.html">Kids Apparel</a></span></li>
                     <li><a href="Blog.html">Blog</a></li>
                     <li><a href="Sample.html">Sample page</a></li>
                     <li><a href="Discount.html">Discount 10%</a></li>
@@ -26,58 +30,18 @@
             </nav>
             <hr>
         </header>
-        <h2>Catalog</h2>
-        <p>Showing all 11 results</p>
-        <div class="filter">
-            <select>
-                <option value="default">Default Sorting</option>
-                <option value="low to high">Price Low to High</option>
-                <option value="high to low">Price High to Low</option>
-              </select>
-        </div>
+            <h2>Catalog</h2>
+            <p>Showing all 11 results</p>
+            <div class="filter">
+                <select>
+                    <option value="default">Default Sorting</option>
+                    <option value="low to high">Price Low to High</option>
+                    <option value="high to low">Price High to Low</option>
+                </select>
+            </div>
 
-        <div class="grid-container">
-            <div class="card">
-                <div class="container">
-                    <img src="images/guccishirt.jpeg" alt="t-shirt">
-                </div>
-                <div class="info">
-                    <p>Product 1</p>
-                    <p class="price">$100.00</p>
-                    <button>Add to cart</button>
-                </div>
-            </div>
-            <div class="card">
-                <div class="container">
-                    <img src="" alt="t-shirt" >
-                </div>
-                <div class="info">
-                    <p>Product 1</p>
-                    <p class="price">$100.00</p>
-                    <button>Add to cart</button>
-                </div>
-            </div>
-            <div class="card">
-                <div class="container">
-                    <img src="" alt="t-shirt" >
-                </div>
-                <div class="info">
-                    <p>Product 1</p>
-                    <p class="price">$100.00</p>
-                    <button>Add to cart</button>
-                </div>
-            </div>
-            <div class="card">
-                <div class="container">
-                    <img src="" alt="t-shirt">
-                </div>
-                <div class="info">
-                    <p>Product 1</p>
-                    <p class="price">$100.00</p>
-                    <button>Add to cart</button>
-                </div>
-            </div>
-        </div>
+            <div class="grid-container"></div>
     </main>
+    <script src="amazon.js"></script>
 </body>
 </html>
