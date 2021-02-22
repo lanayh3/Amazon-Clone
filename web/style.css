@@ -7,6 +7,7 @@ html {
 }
 
 
+/*--------heading------*/
 h1 {
     text-align: center;
     color: rgb(243,160,77);
@@ -15,6 +16,7 @@ h1 {
 
 header {
     text-align: center;
+    
 }
 
 .header {
@@ -24,6 +26,19 @@ header {
     text-align: right;
 }
 
+.search {
+    text-align: center;
+
+}
+
+div input {
+    border-radius: 20px;
+    padding: 5px;
+}
+
+
+
+/*---------nav bar-------*/
 nav li {
     display: inline;
     padding: 0px 15px;
@@ -38,15 +53,15 @@ a {
     text-decoration: none;
     color: black;
 }
+
+
+/*-----------card decoration-----*/
+
 img {
     margin-left: auto;
     margin-right: auto;
 }
 
-
-  /*.container {
-    background-color: rgb(226, 222, 222);
-  }*/
 
   .grid-container {
     display: grid;
@@ -64,7 +79,7 @@ img {
     text-align: right;
 }
 
-
+/*----------Drop down menu from list item-------*/
 .dropdown {
     position: relative;
     display: inline-block;

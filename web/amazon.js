@@ -1,3 +1,13 @@
+const button = document.querySelector("button");
+
+button.addEventListener("click", () => {
+    clothes.map(i => showItems());
+});
+
+
+
+
+
 function showItems(){
   
     let div = document.createElement('div');
@@ -5,7 +15,7 @@ function showItems(){
     `
             <div class="card">
                 <div class="container">
-                    <img src="images/guccishirt.jpeg" alt="t-shirt">
+                    <img src="" alt="t-shirt">
                 </div>
                 <div class="info">
                     <p>Product 1</p>
